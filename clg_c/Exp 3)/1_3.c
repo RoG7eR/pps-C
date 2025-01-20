@@ -3,7 +3,7 @@
 #define PI 3.14
 
 int sq, rectb, rectl, areaS, areaR, perimeterR;
-float radC, areaC;
+float radC, areaC, periC;
 int main () {
     printf("Enter side of square: ");
     scanf("%d",&sq);
@@ -22,10 +22,10 @@ int main () {
     printf("\nEnter radius of circle: ");
     scanf("%f",&radC);
     areaC = PI * radC * radC;
+    periC = 2 * PI * radC;
     printf("\nArea of circle is: %f ",areaC);
+    printf("\nPerimeter of circle is: %f ",periC);
 
-
-
-    
+  
 }
 
