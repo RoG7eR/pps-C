@@ -3,7 +3,7 @@
 
 void main() {
 
-    int num,i,facto,multiply = 1;
+    int num,i,multiply = 1;
     printf("Enter a number: ");
     scanf("%d",&num);
 
