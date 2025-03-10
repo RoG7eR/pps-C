@@ -8,7 +8,7 @@ void main() {
         for(space = 1;space <= 5 - i; space++) { //space loop to control space to print in a centralized triangle pattern
             printf(" ");
         }
-        if(i % 2 != 0) { //if statement to check for even and odd, Numbers in even rows and Alphabets in odd rows
+        if(i % 2 != 0) { //if statement to check for even and odd, Numbers in odd rows and Alphabets in even rows
             for(j = 1; j <= i; j++) { //another loop to print numbers according to the number of row
                 printf("%d ", num);
                 num++; //additional num variable to print numbers which keeps on increasing from '1'       

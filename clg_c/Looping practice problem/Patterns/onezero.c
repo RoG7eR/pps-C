@@ -13,7 +13,7 @@ void main() {
         else {
             for(k = 1; k <= i; k++) {
                 printf("%d",zero);
-                zero = 1 - zero;                
+                zero = 1 + zero;                
             }
         }       
         printf("\n");
