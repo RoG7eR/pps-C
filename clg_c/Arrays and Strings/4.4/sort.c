@@ -15,7 +15,7 @@ void main() {
 
     for(i = 0; i < 5; i++) {
         for(j = 0; j < 5 - i - 1; j++) {
-            if(sort[i] > sort[i + 1]) {
+            if(sort[j] > sort[j + 1]) { // ✅ Corrected here
                 temp = sort[j];
                 sort[j] = sort[j + 1];
                 sort[j + 1] = temp;                
@@ -23,6 +23,8 @@ void main() {
         }        
     }
     
-    printf("Sorted array is: ");
-
+    printf("\nSorted array is: ");
+    for(i = 0; i < 5; i++) {
+        printf("%d ", sort[i]);
+    }
 }

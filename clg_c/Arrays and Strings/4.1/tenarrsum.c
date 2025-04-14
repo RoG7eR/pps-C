@@ -4,7 +4,7 @@ void main() {
     int sum = 0, arr[10], i;
 
     for(i = 0; i < 10; i++) {
-        printf("Enter element no. %d:", i);
+        printf("Enter element no. %d:", i+1);
         scanf("%d",&arr[i]);        
     }
 
